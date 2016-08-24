@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A32F0CED67AEBCB01ADF55A18B5B800DD8803C66",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A32F0CED67AEBCB01ADF55A18B5B800DD8803C66" : 9223372036854775807,
+    "CC7D4C83F89543DC5D7313A87002A3A288282EF1" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "41F840CB-6F0F-4038-9715-FF528A85BB8D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A32F0CED67AEBCB01ADF55A18B5B800DD8803C66" : "I%20Am%20Poor\/",
+    "CC7D4C83F89543DC5D7313A87002A3A288282EF1" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "I Am Poor",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "I Am Poor.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/londonappbrewery\/I-Am-Poor.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A32F0CED67AEBCB01ADF55A18B5B800DD8803C66"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/londonappbrewery\/Vixion.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CC7D4C83F89543DC5D7313A87002A3A288282EF1"
+    }
+  ]
+}
