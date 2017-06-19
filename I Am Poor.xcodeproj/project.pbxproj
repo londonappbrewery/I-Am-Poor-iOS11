@@ -7,36 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63D96B831D6DE4AE004CD752 /* I_Am_PoorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D96B821D6DE4AE004CD752 /* I_Am_PoorUITests.swift */; };
 		63DE379B1D6DD3EF000AB4B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DE379A1D6DD3EF000AB4B6 /* AppDelegate.swift */; };
 		63DE379D1D6DD3EF000AB4B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DE379C1D6DD3EF000AB4B6 /* ViewController.swift */; };
 		63DE37A01D6DD3EF000AB4B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DE379E1D6DD3EF000AB4B6 /* Main.storyboard */; };
 		63DE37A21D6DD3EF000AB4B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DE37A11D6DD3EF000AB4B6 /* Assets.xcassets */; };
 		63DE37A51D6DD3EF000AB4B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DE37A31D6DD3EF000AB4B6 /* LaunchScreen.storyboard */; };
-		63F030501D71939300F171BD /* I_Am_PoorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0304F1D71939300F171BD /* I_Am_PoorTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		63D96B851D6DE4AE004CD752 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 63DE378F1D6DD3EF000AB4B6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 63DE37961D6DD3EF000AB4B6;
-			remoteInfo = "I Am Poor";
-		};
-		63F030521D71939300F171BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 63DE378F1D6DD3EF000AB4B6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 63DE37961D6DD3EF000AB4B6;
-			remoteInfo = "I Am Poor";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		63D96B801D6DE4AE004CD752 /* I Am PoorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I Am PoorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		63D96B821D6DE4AE004CD752 /* I_Am_PoorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Am_PoorUITests.swift; sourceTree = "<group>"; };
-		63D96B841D6DE4AE004CD752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63DE37971D6DD3EF000AB4B6 /* I Am Poor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I Am Poor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DE379A1D6DD3EF000AB4B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63DE379C1D6DD3EF000AB4B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,27 +22,10 @@
 		63DE37A11D6DD3EF000AB4B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63DE37A41D6DD3EF000AB4B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63DE37A61D6DD3EF000AB4B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63F0304D1D71939300F171BD /* I Am PoorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I Am PoorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		63F0304F1D71939300F171BD /* I_Am_PoorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Am_PoorTests.swift; sourceTree = "<group>"; };
-		63F030511D71939300F171BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		63D96B7D1D6DE4AE004CD752 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		63DE37941D6DD3EF000AB4B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		63F0304A1D71939300F171BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,21 +35,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		63D96B811D6DE4AE004CD752 /* I Am PoorUITests */ = {
-			isa = PBXGroup;
-			children = (
-				63D96B821D6DE4AE004CD752 /* I_Am_PoorUITests.swift */,
-				63D96B841D6DE4AE004CD752 /* Info.plist */,
-			);
-			name = "I Am PoorUITests";
-			path = "../I Am PoorUITests";
-			sourceTree = "<group>";
-		};
 		63DE378E1D6DD3EF000AB4B6 = {
 			isa = PBXGroup;
 			children = (
 				63DE37991D6DD3EF000AB4B6 /* I Am Poor */,
-				63F0304E1D71939300F171BD /* I Am PoorTests */,
 				63DE37981D6DD3EF000AB4B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				63DE37971D6DD3EF000AB4B6 /* I Am Poor.app */,
-				63D96B801D6DE4AE004CD752 /* I Am PoorUITests.xctest */,
-				63F0304D1D71939300F171BD /* I Am PoorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,37 +64,9 @@
 			path = "I Am Poor";
 			sourceTree = "<group>";
 		};
-		63F0304E1D71939300F171BD /* I Am PoorTests */ = {
-			isa = PBXGroup;
-			children = (
-				63D96B811D6DE4AE004CD752 /* I Am PoorUITests */,
-				63F0304F1D71939300F171BD /* I_Am_PoorTests.swift */,
-				63F030511D71939300F171BD /* Info.plist */,
-			);
-			path = "I Am PoorTests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		63D96B7F1D6DE4AE004CD752 /* I Am PoorUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 63D96B891D6DE4AE004CD752 /* Build configuration list for PBXNativeTarget "I Am PoorUITests" */;
-			buildPhases = (
-				63D96B7C1D6DE4AE004CD752 /* Sources */,
-				63D96B7D1D6DE4AE004CD752 /* Frameworks */,
-				63D96B7E1D6DE4AE004CD752 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				63D96B861D6DE4AE004CD752 /* PBXTargetDependency */,
-			);
-			name = "I Am PoorUITests";
-			productName = "I Am PoorUITests";
-			productReference = 63D96B801D6DE4AE004CD752 /* I Am PoorUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		63DE37961D6DD3EF000AB4B6 /* I Am Poor */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63DE37A91D6DD3EF000AB4B6 /* Build configuration list for PBXNativeTarget "I Am Poor" */;
@@ -164,24 +84,6 @@
 			productReference = 63DE37971D6DD3EF000AB4B6 /* I Am Poor.app */;
 			productType = "com.apple.product-type.application";
 		};
-		63F0304C1D71939300F171BD /* I Am PoorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 63F030561D71939300F171BD /* Build configuration list for PBXNativeTarget "I Am PoorTests" */;
-			buildPhases = (
-				63F030491D71939300F171BD /* Sources */,
-				63F0304A1D71939300F171BD /* Frameworks */,
-				63F0304B1D71939300F171BD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				63F030531D71939300F171BD /* PBXTargetDependency */,
-			);
-			name = "I Am PoorTests";
-			productName = "I Am PoorTests";
-			productReference = 63F0304D1D71939300F171BD /* I Am PoorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -189,21 +91,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0900;
 				TargetAttributes = {
-					63D96B7F1D6DE4AE004CD752 = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 63DE37961D6DD3EF000AB4B6;
-					};
 					63DE37961D6DD3EF000AB4B6 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
-					};
-					63F0304C1D71939300F171BD = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 63DE37961D6DD3EF000AB4B6;
 					};
 				};
 			};
@@ -221,20 +114,11 @@
 			projectRoot = "";
 			targets = (
 				63DE37961D6DD3EF000AB4B6 /* I Am Poor */,
-				63D96B7F1D6DE4AE004CD752 /* I Am PoorUITests */,
-				63F0304C1D71939300F171BD /* I Am PoorTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		63D96B7E1D6DE4AE004CD752 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		63DE37951D6DD3EF000AB4B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,24 +129,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63F0304B1D71939300F171BD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		63D96B7C1D6DE4AE004CD752 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63D96B831D6DE4AE004CD752 /* I_Am_PoorUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		63DE37931D6DD3EF000AB4B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -272,28 +141,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63F030491D71939300F171BD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63F030501D71939300F171BD /* I_Am_PoorTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		63D96B861D6DE4AE004CD752 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 63DE37961D6DD3EF000AB4B6 /* I Am Poor */;
-			targetProxy = 63D96B851D6DE4AE004CD752 /* PBXContainerItemProxy */;
-		};
-		63F030531D71939300F171BD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 63DE37961D6DD3EF000AB4B6 /* I Am Poor */;
-			targetProxy = 63F030521D71939300F171BD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		63DE379E1D6DD3EF000AB4B6 /* Main.storyboard */ = {
@@ -315,30 +163,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		63D96B871D6DE4AE004CD752 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "I Am PoorUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.YourName.I-Am-PoorUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "I Am Poor";
-			};
-			name = Debug;
-		};
-		63D96B881D6DE4AE004CD752 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "I Am PoorUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.YourName.I-Am-PoorUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "I Am Poor";
-			};
-			name = Release;
-		};
 		63DE37A71D6DD3EF000AB4B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -348,7 +172,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -356,7 +182,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -397,7 +228,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -405,7 +238,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -438,7 +276,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.YourName.I-Am-Poor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -450,48 +289,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.YourName.I-Am-Poor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		63F030541D71939300F171BD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "I Am PoorTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.YourName.I-Am-PoorTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I Am Poor.app/I Am Poor";
-			};
-			name = Debug;
-		};
-		63F030551D71939300F171BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "I Am PoorTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.YourName.I-Am-PoorTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I Am Poor.app/I Am Poor";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		63D96B891D6DE4AE004CD752 /* Build configuration list for PBXNativeTarget "I Am PoorUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				63D96B871D6DE4AE004CD752 /* Debug */,
-				63D96B881D6DE4AE004CD752 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		63DE37921D6DD3EF000AB4B6 /* Build configuration list for PBXProject "I Am Poor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -509,14 +314,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		63F030561D71939300F171BD /* Build configuration list for PBXNativeTarget "I Am PoorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				63F030541D71939300F171BD /* Debug */,
-				63F030551D71939300F171BD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
